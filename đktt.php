@@ -16,6 +16,7 @@ foreach($listsothich as $listsothich){
         $sothich =$sothich ." ". $_POST["{$listsothich}"];
     }
 }
+
 $Motabanthan = $_POST['gtbt'];
 $diachi = $_POST['address'];
 // kết nối CSDL
